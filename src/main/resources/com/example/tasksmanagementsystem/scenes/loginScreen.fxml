@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tasksmanagementsystem.controller.LoginScreenController">
+   <children>
+      <Button fx:id="loginButton" layoutX="135.0" layoutY="421.0" mnemonicParsing="false" onAction="#loginClicked" prefHeight="39.0" prefWidth="92.0" text="Login" />
+      <TextField fx:id="textField" layoutX="85.0" layoutY="236.0" prefHeight="25.0" prefWidth="145.0" />
+      <PasswordField fx:id="passwordField" layoutX="85.0" layoutY="324.0" prefHeight="25.0" prefWidth="145.0" />
+      <Text fx:id="usernameText" layoutX="152.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Text>
+      <Text fx:id="passwordText" layoutX="149.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER" wrappingWidth="71.0546875" />
+      <HBox fx:id="hBox" alignment="CENTER" prefHeight="100.0" prefWidth="360.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="welcome" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to MyTasks">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

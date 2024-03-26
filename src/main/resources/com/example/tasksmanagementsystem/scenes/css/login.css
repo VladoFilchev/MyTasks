@@ -1,0 +1,56 @@
+.root{
+    -fx-background-image: url(pictures/loginbg.jpg) ;
+    -fx-background-size: cover;
+    -fx-background-position: center; /* Center the background image */
+    -fx-border-color: #ffffff; /* Set frame color */
+    -fx-border-width: 5px; /* Set frame width */
+    -fx-border-radius: 5px;
+}
+
+
+#hBox, #welcome {
+    -fx-background-color: rgba(0, 0, 0,0.5); /* Semi-transparent black */
+    -fx-alignment: center; /* Center align the items */
+    -fx-spacing: 10px; /* Spacing between items */
+    -fx-fill: white; /* Set text color to white */
+    -fx-font-size: 26px;
+    -fx-font-weight: bold; /* Make text bold */
+    -fx-font-family: Calibri;
+    -fx-border-width:2px ;
+    -fx-border-color: white;
+}
+
+Text{
+    -fx-font-size: 16px; /* Font size */
+    -fx-fill: white; /* Set text color to white */
+    -fx-font-weight: bold; /* Make text bold */
+    -fx-font-family: Calibri;
+}
+.text-field {
+    -fx-pref-width: 200px; /* Set preferred width */
+    -fx-alignment: center;
+}
+#usernameText, #passwordText {
+    -fx-fill: white; /* Set text color to white */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold; /* Make text bold */
+    -fx-font-family: Calibri;
+}
+
+.button {
+    -fx-pref-width: 100px; /* Set preferred width */
+    -fx-background-color: #3d3c3c; /* Button background color on hover */
+    -fx-text-fill: white; /* Button text color */
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: rgba(152, 202, 255, 0.98); /* Button background color */
+}
+
+.hyperlink{
+    -fx-font-size: 16px;
+    -fx-font-family: Calibri;
+}
