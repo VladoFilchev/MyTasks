@@ -1,0 +1,63 @@
+.root {
+    -fx-background-image: url(pictures/loginbg.jpg) ;
+    -fx-background-size: cover;
+    -fx-background-position: center; /* Center the background image */
+    -fx-border-color: #ffffff; /* Set frame color */
+    -fx-border-width: 5px; /* Set frame width */
+    -fx-border-radius: 5px;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-text-fill: #1976D2;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+}
+
+.menu-button {
+    -fx-background-color: white;
+    -fx-text-fill: #1976D2;
+    -fx-font-size: 14px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-font-size: 14px;
+    -fx-text-fill: #1976D2;
+}
+
+.table-view {
+    -fx-background-color: #efefef;
+    -fx-border-width: 4px;
+    -fx-border-color: white;
+}
+
+.table-column {
+    -fx-font-size: 14px;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+}
+
+.menu-bar {
+    -fx-background-color: #333;
+}
+
+.menu-bar .menu-item {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.menu-bar .menu-item:hover {
+    -fx-background-color: #555;
+}

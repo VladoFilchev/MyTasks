@@ -12,9 +12,9 @@ public class Task {
     private LocalDate startDate;
     private LocalDate endDate;
 
-    public Task(int ID, String taskName, String overview, LocalDate startDate, LocalDate endDate) {
+    public Task(int ID, String taskName,TaskStatus status, String overview, LocalDate startDate, LocalDate endDate) {
         this.ID=ID;
-        this.status = TaskStatus.valueOf(TaskStatus.IN_PROGRESS.toString());
+        this.status = status;
         this.taskName = taskName;
         this.overview = overview;
         this.startDate = startDate;
