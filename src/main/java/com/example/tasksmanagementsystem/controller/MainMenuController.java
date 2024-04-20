@@ -122,7 +122,7 @@ public class MainMenuController {
 
     @FXML
     void openTaskCreator(ActionEvent event) {
-
+programScreens.showNewTask(currentUser);
     }
 
     @FXML
@@ -146,7 +146,7 @@ public class MainMenuController {
     }
     public void setCurrentUser(User currentUser) {
         this.currentUser = currentUser;
-        refreshTable(null); 
+        refreshTable(null);
     }
 
 }
