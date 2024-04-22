@@ -44,7 +44,7 @@ public class RegisterScreenController {
     private Text welcome;
 
     private final RegistrationServices registrationServices = new RegistrationServices();
-    private final ProgramScreens programScreens=new ProgramScreens();
+    private final ProgramScreens programScreens = new ProgramScreens();
 
     @FXML
     void clickRegisterButton(ActionEvent event) {
@@ -82,8 +82,6 @@ public class RegisterScreenController {
 
         //Open the login stage
         programScreens.showLogin();
-
-
     }
 
 }

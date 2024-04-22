@@ -51,13 +51,14 @@ public class NewTaskController {
                     Stage stage = (Stage) taskNameTextField.getScene().getWindow();
                     stage.close();
 
-                    programScreens.showMainMenu(currentUser);
                 } else {
                     showAlert(Alert.AlertType.ERROR, "Task Error", "Failed to add task.");
                 }
 
-            }else {
-                showAlert(Alert.AlertType.ERROR,"Date Error","End date is before start date!");
+            } else if (taskEndDate.isBefore(LocalDate.now())) {
+                showAlert(Alert.AlertType.ERROR, "Date Error", "End date is before today date!");
+            } else {
+                showAlert(Alert.AlertType.ERROR, "Date Error", "End date is before start date!");
             }
         }
     }

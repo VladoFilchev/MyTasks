@@ -54,7 +54,6 @@ public class RegistrationServices {
             return false;
         }
         return true;
-
     }
 
 }
