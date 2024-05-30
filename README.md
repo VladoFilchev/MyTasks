@@ -28,7 +28,7 @@ This project is a software development management tool, similar to Trello, desig
 
 1. **Clone the Repository**:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/VladoFilchev/MyTasks.git
     ```
 
 2. **Set Up the Database**:
